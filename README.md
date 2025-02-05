@@ -1,8 +1,6 @@
 # Linear MCP Server
 [![smithery badge](https://smithery.ai/badge/@gerbal/linear-mcp-server-1)](https://smithery.ai/server/@gerbal/linear-mcp-server-1)
 
-[![smithery badge](https://smithery.ai/badge/linear-mcp-server)](https://smithery.ai/server/linear-mcp-server)
-
 A [Model Context Protocol](https://github.com/modelcontextprotocol) server for the [Linear API](https://developers.linear.app/docs/graphql/working-with-the-graphql-api).
 
 This server provides integration with Linear's issue tracking system through MCP, allowing LLMs to interact with Linear issues.
