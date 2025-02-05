@@ -10,8 +10,8 @@ startCommand:
     properties:
       linearApiKey:
         type: string
-        description: The API key for the Linear MCP server.
+        description: The API key for accessing the Linear API.
   commandFunction:
     # A function that produces the CLI command to start the MCP on stdio.
     |-
-    (config) => ({command:'node',args:['build/index.js'],env:{LINEAR_API_KEY:config.linearApiKey}})
+    (config) => ({ command: 'node', args: ['build/index.js'], env: { LINEAR_API_KEY: config.linearApiKey } })
